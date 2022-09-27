@@ -4,3 +4,8 @@ const log = console.log;
 function add7(number) {
   return number + 7;
 }
+
+// TASK 2
+function multiply(numberOne, numberTwo) {
+  return numberOne * numberTwo;
+}
