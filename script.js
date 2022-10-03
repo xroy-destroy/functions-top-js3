@@ -11,11 +11,13 @@ function multiply(numberOne, numberTwo) {
 }
 
 // TASK 3
-function capitalize (string){
-  // slice(0,1) and toUpperCase()
-  // slice(1) and toLowerCase()
-  // return slicedCasedA + slicedCasedB
-} 
+function capitalize(string) {
+  let firstSlice = string.slice(0,1),
+      secondSlice = string.slice(1);
+  let capSlice = firstSlice.toUpperCase(),
+      lowSlice = secondSlice.toLowerCase();
+  return log(capSlice + lowSlice)
+}
 
 // TASK 4
 function lastLetter(string) {
